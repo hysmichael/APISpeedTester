@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1CC3C11B1D23CA00FDE564 /* STHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CC3C01B1D23CA00FDE564 /* STHTTPClient.m */; };
+		4C2DF0DE1B1D218300AD6CC5 /* STTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DF0DD1B1D218300AD6CC5 /* STTestCase.m */; };
+		4C390AB41B1E8A0A00D2850E /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C390AB31B1E8A0A00D2850E /* Data.m */; };
+		4C60D7A81B1D2A610047EDC5 /* STTestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C60D7A71B1D2A610047EDC5 /* STTestQueue.m */; };
+		4C60D7AB1B1D36790047EDC5 /* STTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C60D7AA1B1D36790047EDC5 /* STTestResult.m */; };
+		4C80F4C41B1D6C10007E804A /* TestCaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80F4C31B1D6C10007E804A /* TestCaseCell.m */; };
+		4CA214121B1D1EAB00EBBB03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA214111B1D1EAB00EBBB03 /* main.m */; };
+		4CA214151B1D1EAB00EBBB03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA214141B1D1EAB00EBBB03 /* AppDelegate.m */; };
+		4CA214181B1D1EAB00EBBB03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA214171B1D1EAB00EBBB03 /* ViewController.m */; };
+		4CA2141B1B1D1EAB00EBBB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA214191B1D1EAB00EBBB03 /* Main.storyboard */; };
+		4CA2141D1B1D1EAB00EBBB03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA2141C1B1D1EAB00EBBB03 /* Images.xcassets */; };
+		4CA214201B1D1EAB00EBBB03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA2141E1B1D1EAB00EBBB03 /* LaunchScreen.xib */; };
+		4CA2142C1B1D1EAB00EBBB03 /* APISpeedTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2142B1B1D1EAB00EBBB03 /* APISpeedTesterTests.m */; };
+		7B162F1BDF620D33FBE3F829 /* libPods-APISpeedTester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DD8E846F701A83D1E49BC0 /* libPods-APISpeedTester.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA214261B1D1EAB00EBBB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA214041B1D1EAB00EBBB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2140B1B1D1EAB00EBBB03;
+			remoteInfo = APISpeedTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1CC3BF1B1D23CA00FDE564 /* STHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPClient.h; sourceTree = "<group>"; };
+		4C1CC3C01B1D23CA00FDE564 /* STHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPClient.m; sourceTree = "<group>"; };
+		4C2DF0DC1B1D218300AD6CC5 /* STTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTestCase.h; sourceTree = "<group>"; };
+		4C2DF0DD1B1D218300AD6CC5 /* STTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTestCase.m; sourceTree = "<group>"; };
+		4C390AB11B1E89CD00D2850E /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		4C390AB31B1E8A0A00D2850E /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		4C60D7A61B1D2A610047EDC5 /* STTestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTestQueue.h; sourceTree = "<group>"; };
+		4C60D7A71B1D2A610047EDC5 /* STTestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTestQueue.m; sourceTree = "<group>"; };
+		4C60D7A91B1D36790047EDC5 /* STTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTestResult.h; sourceTree = "<group>"; };
+		4C60D7AA1B1D36790047EDC5 /* STTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTestResult.m; sourceTree = "<group>"; };
+		4C80F4C21B1D6C10007E804A /* TestCaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCaseCell.h; sourceTree = "<group>"; };
+		4C80F4C31B1D6C10007E804A /* TestCaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCaseCell.m; sourceTree = "<group>"; };
+		4CA2140C1B1D1EAB00EBBB03 /* APISpeedTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APISpeedTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA214101B1D1EAB00EBBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA214111B1D1EAB00EBBB03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CA214131B1D1EAB00EBBB03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CA214141B1D1EAB00EBBB03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CA214161B1D1EAB00EBBB03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CA214171B1D1EAB00EBBB03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CA2141A1B1D1EAB00EBBB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CA2141C1B1D1EAB00EBBB03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = APISpeedTester/Images.xcassets; sourceTree = "<group>"; };
+		4CA2141F1B1D1EAB00EBBB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CA214251B1D1EAB00EBBB03 /* APISpeedTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APISpeedTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA2142A1B1D1EAB00EBBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA2142B1B1D1EAB00EBBB03 /* APISpeedTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APISpeedTesterTests.m; sourceTree = "<group>"; };
+		50DD8E846F701A83D1E49BC0 /* libPods-APISpeedTester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APISpeedTester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15935C15948DF933631CD3A /* Pods-APISpeedTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APISpeedTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-APISpeedTester/Pods-APISpeedTester.release.xcconfig"; sourceTree = "<group>"; };
+		D9DA3069D750806F8B280049 /* Pods-APISpeedTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APISpeedTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APISpeedTester/Pods-APISpeedTester.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA214091B1D1EAB00EBBB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B162F1BDF620D33FBE3F829 /* libPods-APISpeedTester.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA214221B1D1EAB00EBBB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49023C3F135F7931BA290B8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA3069D750806F8B280049 /* Pods-APISpeedTester.debug.xcconfig */,
+				C15935C15948DF933631CD3A /* Pods-APISpeedTester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CA214031B1D1EAB00EBBB03 = {
+			isa = PBXGroup;
+			children = (
+				4C390AB11B1E89CD00D2850E /* Setting.h */,
+				4C390AB31B1E8A0A00D2850E /* Data.m */,
+				4CA2141C1B1D1EAB00EBBB03 /* Images.xcassets */,
+				4CA2140E1B1D1EAB00EBBB03 /* APISpeedTester */,
+				4CA214281B1D1EAB00EBBB03 /* APISpeedTesterTests */,
+				4CA2140D1B1D1EAB00EBBB03 /* Products */,
+				49023C3F135F7931BA290B8F /* Pods */,
+				A0132B7ABE33C1968CFD25A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA2140D1B1D1EAB00EBBB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA2140C1B1D1EAB00EBBB03 /* APISpeedTester.app */,
+				4CA214251B1D1EAB00EBBB03 /* APISpeedTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA2140E1B1D1EAB00EBBB03 /* APISpeedTester */ = {
+			isa = PBXGroup;
+			children = (
+				4CA214131B1D1EAB00EBBB03 /* AppDelegate.h */,
+				4CA214141B1D1EAB00EBBB03 /* AppDelegate.m */,
+				4CA214161B1D1EAB00EBBB03 /* ViewController.h */,
+				4CA214171B1D1EAB00EBBB03 /* ViewController.m */,
+				4C80F4C21B1D6C10007E804A /* TestCaseCell.h */,
+				4C80F4C31B1D6C10007E804A /* TestCaseCell.m */,
+				4C1CC3BF1B1D23CA00FDE564 /* STHTTPClient.h */,
+				4C1CC3C01B1D23CA00FDE564 /* STHTTPClient.m */,
+				4C2DF0DC1B1D218300AD6CC5 /* STTestCase.h */,
+				4C2DF0DD1B1D218300AD6CC5 /* STTestCase.m */,
+				4C60D7A91B1D36790047EDC5 /* STTestResult.h */,
+				4C60D7AA1B1D36790047EDC5 /* STTestResult.m */,
+				4C60D7A61B1D2A610047EDC5 /* STTestQueue.h */,
+				4C60D7A71B1D2A610047EDC5 /* STTestQueue.m */,
+				4CA214191B1D1EAB00EBBB03 /* Main.storyboard */,
+				4CA2141E1B1D1EAB00EBBB03 /* LaunchScreen.xib */,
+				4CA2140F1B1D1EAB00EBBB03 /* Supporting Files */,
+			);
+			path = APISpeedTester;
+			sourceTree = "<group>";
+		};
+		4CA2140F1B1D1EAB00EBBB03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CA214101B1D1EAB00EBBB03 /* Info.plist */,
+				4CA214111B1D1EAB00EBBB03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CA214281B1D1EAB00EBBB03 /* APISpeedTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA2142B1B1D1EAB00EBBB03 /* APISpeedTesterTests.m */,
+				4CA214291B1D1EAB00EBBB03 /* Supporting Files */,
+			);
+			path = APISpeedTesterTests;
+			sourceTree = "<group>";
+		};
+		4CA214291B1D1EAB00EBBB03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CA2142A1B1D1EAB00EBBB03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0132B7ABE33C1968CFD25A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50DD8E846F701A83D1E49BC0 /* libPods-APISpeedTester.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA2140B1B1D1EAB00EBBB03 /* APISpeedTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA2142F1B1D1EAB00EBBB03 /* Build configuration list for PBXNativeTarget "APISpeedTester" */;
+			buildPhases = (
+				F707B5D2FC4ED80A164623DC /* Check Pods Manifest.lock */,
+				4CA214081B1D1EAB00EBBB03 /* Sources */,
+				4CA214091B1D1EAB00EBBB03 /* Frameworks */,
+				4CA2140A1B1D1EAB00EBBB03 /* Resources */,
+				FB0A11C10F28FA981DD9071A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APISpeedTester;
+			productName = APISpeedTester;
+			productReference = 4CA2140C1B1D1EAB00EBBB03 /* APISpeedTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA214241B1D1EAB00EBBB03 /* APISpeedTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA214321B1D1EAB00EBBB03 /* Build configuration list for PBXNativeTarget "APISpeedTesterTests" */;
+			buildPhases = (
+				4CA214211B1D1EAB00EBBB03 /* Sources */,
+				4CA214221B1D1EAB00EBBB03 /* Frameworks */,
+				4CA214231B1D1EAB00EBBB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA214271B1D1EAB00EBBB03 /* PBXTargetDependency */,
+			);
+			name = APISpeedTesterTests;
+			productName = APISpeedTesterTests;
+			productReference = 4CA214251B1D1EAB00EBBB03 /* APISpeedTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA214041B1D1EAB00EBBB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael Hong";
+				TargetAttributes = {
+					4CA2140B1B1D1EAB00EBBB03 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4CA214241B1D1EAB00EBBB03 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4CA2140B1B1D1EAB00EBBB03;
+					};
+				};
+			};
+			buildConfigurationList = 4CA214071B1D1EAB00EBBB03 /* Build configuration list for PBXProject "APISpeedTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA214031B1D1EAB00EBBB03;
+			productRefGroup = 4CA2140D1B1D1EAB00EBBB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA2140B1B1D1EAB00EBBB03 /* APISpeedTester */,
+				4CA214241B1D1EAB00EBBB03 /* APISpeedTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA2140A1B1D1EAB00EBBB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA2141B1B1D1EAB00EBBB03 /* Main.storyboard in Resources */,
+				4CA214201B1D1EAB00EBBB03 /* LaunchScreen.xib in Resources */,
+				4CA2141D1B1D1EAB00EBBB03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA214231B1D1EAB00EBBB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F707B5D2FC4ED80A164623DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0A11C10F28FA981DD9071A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APISpeedTester/Pods-APISpeedTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA214081B1D1EAB00EBBB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA214181B1D1EAB00EBBB03 /* ViewController.m in Sources */,
+				4CA214151B1D1EAB00EBBB03 /* AppDelegate.m in Sources */,
+				4C60D7AB1B1D36790047EDC5 /* STTestResult.m in Sources */,
+				4C60D7A81B1D2A610047EDC5 /* STTestQueue.m in Sources */,
+				4C1CC3C11B1D23CA00FDE564 /* STHTTPClient.m in Sources */,
+				4C80F4C41B1D6C10007E804A /* TestCaseCell.m in Sources */,
+				4C2DF0DE1B1D218300AD6CC5 /* STTestCase.m in Sources */,
+				4CA214121B1D1EAB00EBBB03 /* main.m in Sources */,
+				4C390AB41B1E8A0A00D2850E /* Data.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA214211B1D1EAB00EBBB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA2142C1B1D1EAB00EBBB03 /* APISpeedTesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA214271B1D1EAB00EBBB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA2140B1B1D1EAB00EBBB03 /* APISpeedTester */;
+			targetProxy = 4CA214261B1D1EAB00EBBB03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CA214191B1D1EAB00EBBB03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA2141A1B1D1EAB00EBBB03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CA2141E1B1D1EAB00EBBB03 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA2141F1B1D1EAB00EBBB03 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA2142D1B1D1EAB00EBBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CA2142E1B1D1EAB00EBBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA214301B1D1EAB00EBBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DA3069D750806F8B280049 /* Pods-APISpeedTester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APISpeedTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CA214311B1D1EAB00EBBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15935C15948DF933631CD3A /* Pods-APISpeedTester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APISpeedTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CA214331B1D1EAB00EBBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APISpeedTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APISpeedTester.app/APISpeedTester";
+			};
+			name = Debug;
+		};
+		4CA214341B1D1EAB00EBBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APISpeedTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APISpeedTester.app/APISpeedTester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA214071B1D1EAB00EBBB03 /* Build configuration list for PBXProject "APISpeedTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA2142D1B1D1EAB00EBBB03 /* Debug */,
+				4CA2142E1B1D1EAB00EBBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA2142F1B1D1EAB00EBBB03 /* Build configuration list for PBXNativeTarget "APISpeedTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA214301B1D1EAB00EBBB03 /* Debug */,
+				4CA214311B1D1EAB00EBBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA214321B1D1EAB00EBBB03 /* Build configuration list for PBXNativeTarget "APISpeedTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA214331B1D1EAB00EBBB03 /* Debug */,
+				4CA214341B1D1EAB00EBBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA214041B1D1EAB00EBBB03 /* Project object */;
+}
